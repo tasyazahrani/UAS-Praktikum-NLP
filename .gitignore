@@ -1,0 +1,51 @@
+# Virtual Environment
+env/
+venv/
+.venv/
+
+# Environment Variables
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Model files (terlalu besar untuk GitHub)
+*.bin
+*.pth
+*.onnx
+
+# Log files
+log/
+*.log
+
+# Temp files
+temp/
+tmp/
+*.tmp
+
+# Audio output temp
+*.wav
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Chat history
+app/chat_history.json
